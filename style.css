@@ -14,31 +14,5 @@ font-style: normal;
 
 .images {
   position: relative;
-  width: 100%;
-}
-
-img {
-  //transition: opacity 1s ease-in-out;
-  transition: all 2s ease-in-out;
-  //border: 2px solid black;
-  //max-height: 100px;
-}
-
-.shuffle {
-  margin-bottom: 20px;
-}
-
-.show {
-  opacity: 1;
-  visibility: visible;
-  width: auto;
-  transition: all 1s ease-in-out;
-}
-
-.hide {
-  opacity: 0;
-  visibility: hidden;
-  width: 0;
-  position: absolute;
-  transition: all 1s ease-in-out;
+  width: 60%;
 }
