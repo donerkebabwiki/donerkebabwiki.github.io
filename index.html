@@ -6,48 +6,15 @@
 <meta charset="utf-8">
 <meta name="Description" content="edwintran, michaelseh, eating, donerkebabwiki, donerkebab, food">
 <link rel="stylesheet" href="https://use.typekit.net/cxk2jvb.css">
-
 <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
+  
+<body>
 <h1>DONERKEBAB [dot] WIKI, *A-Z.</h1>
 <h2>Travelogue<br>Tales of Döner Kebab</h2>
 <h3>*AMSTERDAM • BERLIN • COPENHAGEN • DUBLIN • EDINBURGH • FRANKFURT • GLASGOW • HELSINKI • ISTANBUL • JEREZ • KYIV • LONDON • MADRID • NICE • OSLO • PARIS • QUELUZ • ROME • STOCKHOLM • TALLINN • UTRECHT • VIENNA • WARSAW • XATIVA • YORK • ZÜRICH, A-Z an online travel encyclopedia.</h3>
 
-  <script>
-var counter = 0;
-$('.images img').each(function(i) {
-   if (i == 0) {
-       counter = 0;
-   } else {
-       counter++;
-   }
-   if (counter < 5) {
-       $(this).addClass('show');
-   } else {
-     $(this).addClass('hide');
-   }
-});
-
-
-function shuffleRandomLogos(remove, add) {
-  const logo = $("."+remove).toArray();
-  //const logo = $('.images'+remove).toArray();
-  //const logo = $(".images img").toArray();
-  const logoLength = logo.length;
-  const randomNum = Math.floor(Math.random()*logoLength);
-  const randomLogo = logo[randomNum];
-  $(randomLogo).removeClass(remove);
-  $(randomLogo).addClass(add);
-}
-
-window.setInterval(function(){
-  // remove a cat
-  shuffleRandomLogos("show", "hide");
-  // display a cat
-  shuffleRandomLogos("hide", "show");
-}, 600);
-</script>
   
 <div class="group">
 <div class="images">
@@ -71,4 +38,7 @@ window.setInterval(function(){
                   </div>
                 </div>
             </center><footer></footer>
+  <script  src="script.js"></script>
+
+</body>
 </html>
