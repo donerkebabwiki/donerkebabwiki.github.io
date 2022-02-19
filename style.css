@@ -12,6 +12,7 @@ font-style: normal;
    background: #D3D3D3;
 }
 
-.images {
+img {
   position: relative;
+  width: 35%;
 }
