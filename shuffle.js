@@ -14,5 +14,5 @@
     }
     var shuffled_images = shuffle(array);
     for(var i=0;i<3;i++) {
-    document.getElementById('girl' + (i+1)).src = shuffled_images[i] ;
+    document.getElementById('map' + (i+1)).src = shuffled_images[i] ;
     }
