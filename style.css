@@ -18,3 +18,7 @@ img {
 }
 
 li:hover >img{display:block !important;}
+
+ul {
+  list-style-type: none;
+}
