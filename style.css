@@ -12,11 +12,6 @@ font-style: normal;
    background: #D3D3D3;
 }
 
-img {
-  position: relative;
-  width: 35%;
-}
-
 li:hover >img{display:block !important;}
 
 ul {
